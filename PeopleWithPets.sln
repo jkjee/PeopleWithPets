@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleWithPets", "PeopleWithPets\PeopleWithPets.csproj", "{B584221A-C68C-4D3B-8C2F-3C8937B485BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6C5D31F-633A-459D-BEBF-1FE91109D94E} = {B6C5D31F-633A-459D-BEBF-1FE91109D94E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleWithPets.Library", "PeopleWithPets.Library\PeopleWithPets.Library.csproj", "{B6C5D31F-633A-459D-BEBF-1FE91109D94E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleWithPets.Tests", "PeopleWithPets.Tests\PeopleWithPets.Tests.csproj", "{027799C7-AE64-4F02-95EE-D21405081D4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6C5D31F-633A-459D-BEBF-1FE91109D94E} = {B6C5D31F-633A-459D-BEBF-1FE91109D94E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B584221A-C68C-4D3B-8C2F-3C8937B485BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B584221A-C68C-4D3B-8C2F-3C8937B485BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B584221A-C68C-4D3B-8C2F-3C8937B485BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B584221A-C68C-4D3B-8C2F-3C8937B485BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C5D31F-633A-459D-BEBF-1FE91109D94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C5D31F-633A-459D-BEBF-1FE91109D94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C5D31F-633A-459D-BEBF-1FE91109D94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C5D31F-633A-459D-BEBF-1FE91109D94E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027799C7-AE64-4F02-95EE-D21405081D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027799C7-AE64-4F02-95EE-D21405081D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027799C7-AE64-4F02-95EE-D21405081D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027799C7-AE64-4F02-95EE-D21405081D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

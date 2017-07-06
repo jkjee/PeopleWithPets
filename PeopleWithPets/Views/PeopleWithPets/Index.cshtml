@@ -1,0 +1,20 @@
+﻿@model Dictionary<string, List<PeopleWithPets.Library.Models.Pet>>
+@{
+    ViewBag.Title = "Cats by people gender";
+}
+
+<h2>Cats by people gender</h2>
+
+@foreach (var gender in Model)
+{
+    <text><b>@gender.Key</b></text>
+    <br/>
+    <ul>
+        @foreach (var pet in gender.Value)
+        {
+            <li>
+                <text><b>@pet.Name</b></text>
+            </li>
+        }
+    </ul>
+}
